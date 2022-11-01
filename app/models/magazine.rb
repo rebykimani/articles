@@ -55,16 +55,16 @@ end
 
 
 
-author_1 = Author.new("K. Jane")
-author_2 = Author.new("M. Saida")
+author_1 = Author.new("K. Rose")
+author_2 = Author.new("N. Rovan")
 
-magazine_1 = Magazine.new("Health", "Lifestyle")
-magazine_2 = Magazine.new("Farming Methods", "Agriculture")
+magazine_1 = Magazine.new("Technology", "Open source projects")
+magazine_2 = Magazine.new("Healthy Eating", "Nutrition and dietary")
 
-article_1 = Article.new(author_1, magazine_1, "Organic Food")
-article_2 = Article.new(author_1, magazine_2, "Hydroponics")
-article_3 = Article.new(author_2, magazine_1, "Importance of Daily Exercise")
-article_4 = Article.new(author_2, magazine_2, "Mushroom Farming")
+article_1 = Article.new(author_1, magazine_1, "Importance of young techprenuers contribution to open source projects")
+article_2 = Article.new(author_1, magazine_2, "Examples of existing open source projects")
+article_3 = Article.new(author_2, magazine_1, "Importance of eating a balanced diet")
+article_4 = Article.new(author_2, magazine_2, "Meal plan")
 
 pp author_1.articles
 pp author_2.articles
